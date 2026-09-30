@@ -19,6 +19,4 @@ public class HistoricoComandos {
             System.out.println("Nada para desfazer");
         }
     }
-
-
 }

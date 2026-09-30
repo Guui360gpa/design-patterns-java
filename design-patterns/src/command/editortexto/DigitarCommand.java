@@ -5,9 +5,8 @@ public class DigitarCommand implements Command{
     private EditorDeTexto editorDeTexto;
     private String texto;
 
-    public DigitarCommand(EditorDeTexto editorDeTexto,String texto) {
+    public DigitarCommand(EditorDeTexto editorDeTexto) {
         this.editorDeTexto = editorDeTexto;
-        this.texto = texto;
     }
 
     @Override
