@@ -10,11 +10,10 @@ public class HistoricoComandos {
         historico.push(command);
     }
 
-    public void apagar(Command command){
+    public void apagar(){
         if (!historico.isEmpty()){
             Command ultimo = historico.pop();
             ultimo.desfazer();
-            historico.remove(ultimo);
         }else {
             System.out.println("Nada para desfazer");
         }
